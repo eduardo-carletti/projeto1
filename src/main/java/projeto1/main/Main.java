@@ -12,7 +12,7 @@ public class Main {
 
 	private void start() {
 
-		final String text = "texto com letras minúsculas";
+		final String text = "texto com letras minusculas";
 		System.out.println(StringUtils.upperCase(text));
 	}
 
