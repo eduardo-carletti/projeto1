@@ -4,15 +4,15 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Main app = new Main();
+	public static void main(final String[] args) {
+
+		final Main app = new Main();
 		app.start();
 	}
 
 	private void start() {
-		// TODO Auto-generated method stub
-		String text = "texto com letras minusculas";
+
+		final String text = "texto com letras minúsculas";
 		System.out.println(StringUtils.upperCase(text));
 	}
 
